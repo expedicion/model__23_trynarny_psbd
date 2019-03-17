@@ -1,0 +1,54 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="71A08054-7110-6AF3-8079-958505E8DE6C" name="GRUPA">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-12 17:34:04 UTC</createdTime>
+<ownerDesignName>Zw_trynarny</ownerDesignName>
+<engineerTo>
+<item key="E0F1C977-5C94-E87D-21DC-77EFD50AA9D1" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="KOD_GRUPY" id="FDAFF1EC-2D4B-75AD-1FF2-1982C3124498">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-12 17:34:47 UTC</createdTime>
+<ownerDesignName>Zw_trynarny</ownerDesignName>
+<engineerTo>
+<item key="E0F1C977-5C94-E87D-21DC-77EFD50AA9D1" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="OPIS" id="8F27F76A-55F3-A156-1F44-FAC99FB638D6">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-12 17:34:59 UTC</createdTime>
+<ownerDesignName>Zw_trynarny</ownerDesignName>
+<engineerTo>
+<item key="E0F1C977-5C94-E87D-21DC-77EFD50AA9D1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="EC7446EF-9A1E-1245-435E-2A84D7317FE8" name="GRUPA PK">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-12 17:34:56 UTC</createdTime>
+<ownerDesignName>Zw_trynarny</ownerDesignName>
+<engineerTo>
+<item key="E0F1C977-5C94-E87D-21DC-77EFD50AA9D1" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>FDAFF1EC-2D4B-75AD-1FF2-1982C3124498</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

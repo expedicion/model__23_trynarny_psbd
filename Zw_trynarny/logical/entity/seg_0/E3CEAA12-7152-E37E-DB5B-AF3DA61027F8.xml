@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E3CEAA12-7152-E37E-DB5B-AF3DA61027F8" name="ZAJECIA_W_SALI">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-12 17:34:12 UTC</createdTime>
+<ownerDesignName>Zw_trynarny</ownerDesignName>
+<engineerTo>
+<item key="E0F1C977-5C94-E87D-21DC-77EFD50AA9D1" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="KOD_GRUPY" id="54BA0787-244D-4B04-C06E-170FB0D593B4">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-12 17:37:26 UTC</createdTime>
+<generatorID>2544EF28-D1D2-596C-00E7-4E0FB77A6F04</generatorID>
+<ownerDesignName>Zw_trynarny</ownerDesignName>
+<engineerTo>
+<item key="E0F1C977-5C94-E87D-21DC-77EFD50AA9D1" value="true"/>
+</engineerTo>
+<referedAttribute>FDAFF1EC-2D4B-75AD-1FF2-1982C3124498</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="KOD_ZAJEC" id="69B9A5B2-9784-CB80-1813-FBEA88CE1638">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-12 17:37:38 UTC</createdTime>
+<generatorID>F8BA1972-452C-B6D5-773B-5A6418DF03B0</generatorID>
+<ownerDesignName>Zw_trynarny</ownerDesignName>
+<engineerTo>
+<item key="E0F1C977-5C94-E87D-21DC-77EFD50AA9D1" value="true"/>
+</engineerTo>
+<referedAttribute>5D3C582A-9EB3-2507-852A-747E217D7607</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="KOD_SALI" id="2070A885-D02B-F5D7-271F-AD55228C2BAD">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-12 17:37:47 UTC</createdTime>
+<generatorID>B419CB53-4071-3252-12FC-6B71AD3F234A</generatorID>
+<ownerDesignName>Zw_trynarny</ownerDesignName>
+<engineerTo>
+<item key="E0F1C977-5C94-E87D-21DC-77EFD50AA9D1" value="true"/>
+</engineerTo>
+<referedAttribute>5224447B-B3DF-101D-BFDD-4084B7F925ED</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7EC3DBEE-899F-F611-C1E4-13926B8AAF58" name="ZAJECIA_W_SALI PK">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-12 17:37:26 UTC</createdTime>
+<ownerDesignName>Zw_trynarny</ownerDesignName>
+<engineerTo>
+<item key="E0F1C977-5C94-E87D-21DC-77EFD50AA9D1" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>54BA0787-244D-4B04-C06E-170FB0D593B4</attributeRef>
+<attributeRef>69B9A5B2-9784-CB80-1813-FBEA88CE1638</attributeRef>
+<attributeRef>2070A885-D02B-F5D7-271F-AD55228C2BAD</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
